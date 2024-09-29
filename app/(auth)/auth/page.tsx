@@ -7,7 +7,6 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { FaGoogle, FaGithub } from 'react-icons/fa';
-import { div } from 'framer-motion/client';
 
 export default function AuthPage() {
   const [isSignup, setIsSignup] = useState(true);
